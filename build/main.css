@@ -25825,6 +25825,10 @@ page-home .modal_content {
   overflow: hidden;
 }
 
+page-home .recuo {
+  text-indent: 4em;
+}
+
 page-processo .borda {
   border: 1px solid black;
 }
