@@ -25822,6 +25822,7 @@ page-home .modal_content {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   text-indent: 4em;
+  font-size: 18px;
   overflow: hidden;
 }
 
