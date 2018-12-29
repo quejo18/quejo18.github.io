@@ -4873,10 +4873,6 @@ textarea::-webkit-input-placeholder {
   padding-left: 2px;
 }
 
-textarea:-ms-input-placeholder {
-  padding-left: 2px;
-}
-
 textarea::-ms-input-placeholder {
   padding-left: 2px;
 }
@@ -5041,7 +5037,7 @@ ion-input :focus {
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   -webkit-tap-highlight-color: transparent;
   -webkit-touch-callout: none;
 }
@@ -18862,23 +18858,23 @@ button.swiper-pagination-bullet {
 }
 
 .swiper-container-3d .swiper-slide-shadow-left {
-  background-image: -webkit-gradient(linear, right top, left top, from(rgba(0, 0, 0, 0.5)), to(transparent));
-  background-image: linear-gradient(to left, rgba(0, 0, 0, 0.5), transparent);
+  background-image: -webkit-gradient(linear, right top, left top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0)));
+  background-image: linear-gradient(to left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
 }
 
 .swiper-container-3d .swiper-slide-shadow-right {
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(transparent));
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), transparent);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0)));
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
 }
 
 .swiper-container-3d .swiper-slide-shadow-top {
-  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.5)), to(transparent));
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), transparent);
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0)));
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
 }
 
 .swiper-container-3d .swiper-slide-shadow-bottom {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(transparent));
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), transparent);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0)));
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
 }
 
 .swiper-container-coverflow .swiper-wrapper,
@@ -25737,6 +25733,296 @@ page-armazenamento footer.fixar-rodape {
   width: 99%;
 }
 
+page-dados-autocura .tg {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+page-dados-autocura .tg td {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  padding: 10px 5px;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  word-break: normal;
+  border-color: black;
+}
+
+page-dados-autocura .tg th {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  padding: 10px 5px;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  word-break: normal;
+  border-color: black;
+}
+
+page-dados-autocura .tg .tg-0pky {
+  border-color: inherit;
+  text-align: left;
+  vertical-align: top;
+}
+
+page-dados-autocura html, page-dados-autocura * {
+  /** Não importa. Reseta os estilos **/
+  margin: 0;
+  padding: 0;
+}
+
+page-dados-autocura body {
+  /** Não importa **/
+  font-family: 'calibri light', calibri, arial, sans-serif;
+}
+
+page-dados-autocura div.body-content {
+  /** Essa margem vai evitar que o conteudo fique por baixo do rodapé **/
+  margin-bottom: 40px;
+}
+
+page-dados-autocura footer.fixar-rodape {
+  bottom: 0;
+  left: 0;
+  height: 50px;
+  position: fixed;
+  width: 99%;
+}
+
+page-dados-checkpointing .tg {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+page-dados-checkpointing .tg td {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  padding: 10px 5px;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  word-break: normal;
+  border-color: black;
+}
+
+page-dados-checkpointing .tg th {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  padding: 10px 5px;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  word-break: normal;
+  border-color: black;
+}
+
+page-dados-checkpointing .tg .tg-0pky {
+  border-color: inherit;
+  text-align: left;
+  vertical-align: top;
+}
+
+page-dados-checkpointing html, page-dados-checkpointing * {
+  /** Não importa. Reseta os estilos **/
+  margin: 0;
+  padding: 0;
+}
+
+page-dados-checkpointing body {
+  /** Não importa **/
+  font-family: 'calibri light', calibri, arial, sans-serif;
+}
+
+page-dados-checkpointing div.body-content {
+  /** Essa margem vai evitar que o conteudo fique por baixo do rodapé **/
+  margin-bottom: 40px;
+}
+
+page-dados-checkpointing footer.fixar-rodape {
+  bottom: 0;
+  left: 0;
+  height: 50px;
+  position: fixed;
+  width: 99%;
+}
+
+page-dados-migracaopreemptiva .tg {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+page-dados-migracaopreemptiva .tg td {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  padding: 10px 5px;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  word-break: normal;
+  border-color: black;
+}
+
+page-dados-migracaopreemptiva .tg th {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  padding: 10px 5px;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  word-break: normal;
+  border-color: black;
+}
+
+page-dados-migracaopreemptiva .tg .tg-0pky {
+  border-color: inherit;
+  text-align: left;
+  vertical-align: top;
+}
+
+page-dados-migracaopreemptiva html, page-dados-migracaopreemptiva * {
+  /** Não importa. Reseta os estilos **/
+  margin: 0;
+  padding: 0;
+}
+
+page-dados-migracaopreemptiva body {
+  /** Não importa **/
+  font-family: 'calibri light', calibri, arial, sans-serif;
+}
+
+page-dados-migracaopreemptiva div.body-content {
+  /** Essa margem vai evitar que o conteudo fique por baixo do rodapé **/
+  margin-bottom: 40px;
+}
+
+page-dados-migracaopreemptiva footer.fixar-rodape {
+  bottom: 0;
+  left: 0;
+  height: 50px;
+  position: fixed;
+  width: 99%;
+}
+
+page-dados-migracaotrabalho .tg {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+page-dados-migracaotrabalho .tg td {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  padding: 10px 5px;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  word-break: normal;
+  border-color: black;
+}
+
+page-dados-migracaotrabalho .tg th {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  padding: 10px 5px;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  word-break: normal;
+  border-color: black;
+}
+
+page-dados-migracaotrabalho .tg .tg-0pky {
+  border-color: inherit;
+  text-align: left;
+  vertical-align: top;
+}
+
+page-dados-migracaotrabalho html, page-dados-migracaotrabalho * {
+  /** Não importa. Reseta os estilos **/
+  margin: 0;
+  padding: 0;
+}
+
+page-dados-migracaotrabalho body {
+  /** Não importa **/
+  font-family: 'calibri light', calibri, arial, sans-serif;
+}
+
+page-dados-migracaotrabalho div.body-content {
+  /** Essa margem vai evitar que o conteudo fique por baixo do rodapé **/
+  margin-bottom: 40px;
+}
+
+page-dados-migracaotrabalho footer.fixar-rodape {
+  bottom: 0;
+  left: 0;
+  height: 50px;
+  position: fixed;
+  width: 99%;
+}
+
+page-dados-replicacao .tg {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+page-dados-replicacao .tg td {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  padding: 10px 5px;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  word-break: normal;
+  border-color: black;
+}
+
+page-dados-replicacao .tg th {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  padding: 10px 5px;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  word-break: normal;
+  border-color: black;
+}
+
+page-dados-replicacao .tg .tg-0pky {
+  border-color: inherit;
+  text-align: left;
+  vertical-align: top;
+}
+
+page-dados-replicacao html, page-dados-replicacao * {
+  /** Não importa. Reseta os estilos **/
+  margin: 0;
+  padding: 0;
+}
+
+page-dados-replicacao body {
+  /** Não importa **/
+  font-family: 'calibri light', calibri, arial, sans-serif;
+}
+
+page-dados-replicacao div.body-content {
+  /** Essa margem vai evitar que o conteudo fique por baixo do rodapé **/
+  margin-bottom: 40px;
+}
+
+page-dados-replicacao footer.fixar-rodape {
+  bottom: 0;
+  left: 0;
+  height: 50px;
+  position: fixed;
+  width: 99%;
+}
+
 page-comunicacao .tg {
   border-collapse: collapse;
   border-spacing: 0;
@@ -25788,6 +26074,238 @@ page-comunicacao div.body-content {
 }
 
 page-comunicacao footer.fixar-rodape {
+  bottom: 0;
+  left: 0;
+  height: 50px;
+  position: fixed;
+  width: 99%;
+}
+
+page-comunicacao-autocura .tg {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+page-comunicacao-autocura .tg td {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  padding: 10px 5px;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  word-break: normal;
+  border-color: black;
+}
+
+page-comunicacao-autocura .tg th {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  padding: 10px 5px;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  word-break: normal;
+  border-color: black;
+}
+
+page-comunicacao-autocura .tg .tg-0pky {
+  border-color: inherit;
+  text-align: left;
+  vertical-align: top;
+}
+
+page-comunicacao-autocura html, page-comunicacao-autocura * {
+  /** Não importa. Reseta os estilos **/
+  margin: 0;
+  padding: 0;
+}
+
+page-comunicacao-autocura body {
+  /** Não importa **/
+  font-family: 'calibri light', calibri, arial, sans-serif;
+}
+
+page-comunicacao-autocura div.body-content {
+  /** Essa margem vai evitar que o conteudo fique por baixo do rodapé **/
+  margin-bottom: 40px;
+}
+
+page-comunicacao-autocura footer.fixar-rodape {
+  bottom: 0;
+  left: 0;
+  height: 50px;
+  position: fixed;
+  width: 99%;
+}
+
+page-comunicacao-checkpointing .tg {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+page-comunicacao-checkpointing .tg td {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  padding: 10px 5px;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  word-break: normal;
+  border-color: black;
+}
+
+page-comunicacao-checkpointing .tg th {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  padding: 10px 5px;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  word-break: normal;
+  border-color: black;
+}
+
+page-comunicacao-checkpointing .tg .tg-0pky {
+  border-color: inherit;
+  text-align: left;
+  vertical-align: top;
+}
+
+page-comunicacao-checkpointing html, page-comunicacao-checkpointing * {
+  /** Não importa. Reseta os estilos **/
+  margin: 0;
+  padding: 0;
+}
+
+page-comunicacao-checkpointing body {
+  /** Não importa **/
+  font-family: 'calibri light', calibri, arial, sans-serif;
+}
+
+page-comunicacao-checkpointing div.body-content {
+  /** Essa margem vai evitar que o conteudo fique por baixo do rodapé **/
+  margin-bottom: 40px;
+}
+
+page-comunicacao-checkpointing footer.fixar-rodape {
+  bottom: 0;
+  left: 0;
+  height: 50px;
+  position: fixed;
+  width: 99%;
+}
+
+page-comunicacao-migracaopreemptiva .tg {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+page-comunicacao-migracaopreemptiva .tg td {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  padding: 10px 5px;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  word-break: normal;
+  border-color: black;
+}
+
+page-comunicacao-migracaopreemptiva .tg th {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  padding: 10px 5px;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  word-break: normal;
+  border-color: black;
+}
+
+page-comunicacao-migracaopreemptiva .tg .tg-0pky {
+  border-color: inherit;
+  text-align: left;
+  vertical-align: top;
+}
+
+page-comunicacao-migracaopreemptiva html, page-comunicacao-migracaopreemptiva * {
+  /** Não importa. Reseta os estilos **/
+  margin: 0;
+  padding: 0;
+}
+
+page-comunicacao-migracaopreemptiva body {
+  /** Não importa **/
+  font-family: 'calibri light', calibri, arial, sans-serif;
+}
+
+page-comunicacao-migracaopreemptiva div.body-content {
+  /** Essa margem vai evitar que o conteudo fique por baixo do rodapé **/
+  margin-bottom: 40px;
+}
+
+page-comunicacao-migracaopreemptiva footer.fixar-rodape {
+  bottom: 0;
+  left: 0;
+  height: 50px;
+  position: fixed;
+  width: 99%;
+}
+
+page-comunicacao-replicacao .tg {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+page-comunicacao-replicacao .tg td {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  padding: 10px 5px;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  word-break: normal;
+  border-color: black;
+}
+
+page-comunicacao-replicacao .tg th {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  padding: 10px 5px;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  word-break: normal;
+  border-color: black;
+}
+
+page-comunicacao-replicacao .tg .tg-0pky {
+  border-color: inherit;
+  text-align: left;
+  vertical-align: top;
+}
+
+page-comunicacao-replicacao html, page-comunicacao-replicacao * {
+  /** Não importa. Reseta os estilos **/
+  margin: 0;
+  padding: 0;
+}
+
+page-comunicacao-replicacao body {
+  /** Não importa **/
+  font-family: 'calibri light', calibri, arial, sans-serif;
+}
+
+page-comunicacao-replicacao div.body-content {
+  /** Essa margem vai evitar que o conteudo fique por baixo do rodapé **/
+  margin-bottom: 40px;
+}
+
+page-comunicacao-replicacao footer.fixar-rodape {
   bottom: 0;
   left: 0;
   height: 50px;
@@ -25885,6 +26403,238 @@ page-processo div.body-content {
 }
 
 page-processo footer.fixar-rodape {
+  bottom: 0;
+  left: 0;
+  height: 50px;
+  position: fixed;
+  width: 99%;
+}
+
+page-processo-autocura .tg {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+page-processo-autocura .tg td {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  padding: 10px 5px;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  word-break: normal;
+  border-color: black;
+}
+
+page-processo-autocura .tg th {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  padding: 10px 5px;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  word-break: normal;
+  border-color: black;
+}
+
+page-processo-autocura .tg .tg-0pky {
+  border-color: inherit;
+  text-align: left;
+  vertical-align: top;
+}
+
+page-processo-autocura html, page-processo-autocura * {
+  /** Não importa. Reseta os estilos **/
+  margin: 0;
+  padding: 0;
+}
+
+page-processo-autocura body {
+  /** Não importa **/
+  font-family: 'calibri light', calibri, arial, sans-serif;
+}
+
+page-processo-autocura div.body-content {
+  /** Essa margem vai evitar que o conteudo fique por baixo do rodapé **/
+  margin-bottom: 40px;
+}
+
+page-processo-autocura footer.fixar-rodape {
+  bottom: 0;
+  left: 0;
+  height: 50px;
+  position: fixed;
+  width: 99%;
+}
+
+page-processo-checkpointing .tg {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+page-processo-checkpointing .tg td {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  padding: 10px 5px;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  word-break: normal;
+  border-color: black;
+}
+
+page-processo-checkpointing .tg th {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  padding: 10px 5px;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  word-break: normal;
+  border-color: black;
+}
+
+page-processo-checkpointing .tg .tg-0pky {
+  border-color: inherit;
+  text-align: left;
+  vertical-align: top;
+}
+
+page-processo-checkpointing html, page-processo-checkpointing * {
+  /** Não importa. Reseta os estilos **/
+  margin: 0;
+  padding: 0;
+}
+
+page-processo-checkpointing body {
+  /** Não importa **/
+  font-family: 'calibri light', calibri, arial, sans-serif;
+}
+
+page-processo-checkpointing div.body-content {
+  /** Essa margem vai evitar que o conteudo fique por baixo do rodapé **/
+  margin-bottom: 40px;
+}
+
+page-processo-checkpointing footer.fixar-rodape {
+  bottom: 0;
+  left: 0;
+  height: 50px;
+  position: fixed;
+  width: 99%;
+}
+
+page-processo-migracaotrabalho .tg {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+page-processo-migracaotrabalho .tg td {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  padding: 10px 5px;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  word-break: normal;
+  border-color: black;
+}
+
+page-processo-migracaotrabalho .tg th {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  padding: 10px 5px;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  word-break: normal;
+  border-color: black;
+}
+
+page-processo-migracaotrabalho .tg .tg-0pky {
+  border-color: inherit;
+  text-align: left;
+  vertical-align: top;
+}
+
+page-processo-migracaotrabalho html, page-processo-migracaotrabalho * {
+  /** Não importa. Reseta os estilos **/
+  margin: 0;
+  padding: 0;
+}
+
+page-processo-migracaotrabalho body {
+  /** Não importa **/
+  font-family: 'calibri light', calibri, arial, sans-serif;
+}
+
+page-processo-migracaotrabalho div.body-content {
+  /** Essa margem vai evitar que o conteudo fique por baixo do rodapé **/
+  margin-bottom: 40px;
+}
+
+page-processo-migracaotrabalho footer.fixar-rodape {
+  bottom: 0;
+  left: 0;
+  height: 50px;
+  position: fixed;
+  width: 99%;
+}
+
+page-processo-replicacao .tg {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+page-processo-replicacao .tg td {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  padding: 10px 5px;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  word-break: normal;
+  border-color: black;
+}
+
+page-processo-replicacao .tg th {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  padding: 10px 5px;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  word-break: normal;
+  border-color: black;
+}
+
+page-processo-replicacao .tg .tg-0pky {
+  border-color: inherit;
+  text-align: left;
+  vertical-align: top;
+}
+
+page-processo-replicacao html, page-processo-replicacao * {
+  /** Não importa. Reseta os estilos **/
+  margin: 0;
+  padding: 0;
+}
+
+page-processo-replicacao body {
+  /** Não importa **/
+  font-family: 'calibri light', calibri, arial, sans-serif;
+}
+
+page-processo-replicacao div.body-content {
+  /** Essa margem vai evitar que o conteudo fique por baixo do rodapé **/
+  margin-bottom: 40px;
+}
+
+page-processo-replicacao footer.fixar-rodape {
   bottom: 0;
   left: 0;
   height: 50px;
@@ -26010,6 +26760,238 @@ page-virtualizacao div.body-content {
 }
 
 page-virtualizacao footer.fixar-rodape {
+  bottom: 0;
+  left: 0;
+  height: 50px;
+  position: fixed;
+  width: 99%;
+}
+
+page-virtualizacao-autocura .tg {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+page-virtualizacao-autocura .tg td {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  padding: 10px 5px;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  word-break: normal;
+  border-color: black;
+}
+
+page-virtualizacao-autocura .tg th {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  padding: 10px 5px;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  word-break: normal;
+  border-color: black;
+}
+
+page-virtualizacao-autocura .tg .tg-0pky {
+  border-color: inherit;
+  text-align: left;
+  vertical-align: top;
+}
+
+page-virtualizacao-autocura html, page-virtualizacao-autocura * {
+  /** Não importa. Reseta os estilos **/
+  margin: 0;
+  padding: 0;
+}
+
+page-virtualizacao-autocura body {
+  /** Não importa **/
+  font-family: 'calibri light', calibri, arial, sans-serif;
+}
+
+page-virtualizacao-autocura div.body-content {
+  /** Essa margem vai evitar que o conteudo fique por baixo do rodapé **/
+  margin-bottom: 40px;
+}
+
+page-virtualizacao-autocura footer.fixar-rodape {
+  bottom: 0;
+  left: 0;
+  height: 50px;
+  position: fixed;
+  width: 99%;
+}
+
+page-virtualizacao-checkpointing .tg {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+page-virtualizacao-checkpointing .tg td {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  padding: 10px 5px;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  word-break: normal;
+  border-color: black;
+}
+
+page-virtualizacao-checkpointing .tg th {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  padding: 10px 5px;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  word-break: normal;
+  border-color: black;
+}
+
+page-virtualizacao-checkpointing .tg .tg-0pky {
+  border-color: inherit;
+  text-align: left;
+  vertical-align: top;
+}
+
+page-virtualizacao-checkpointing html, page-virtualizacao-checkpointing * {
+  /** Não importa. Reseta os estilos **/
+  margin: 0;
+  padding: 0;
+}
+
+page-virtualizacao-checkpointing body {
+  /** Não importa **/
+  font-family: 'calibri light', calibri, arial, sans-serif;
+}
+
+page-virtualizacao-checkpointing div.body-content {
+  /** Essa margem vai evitar que o conteudo fique por baixo do rodapé **/
+  margin-bottom: 40px;
+}
+
+page-virtualizacao-checkpointing footer.fixar-rodape {
+  bottom: 0;
+  left: 0;
+  height: 50px;
+  position: fixed;
+  width: 99%;
+}
+
+page-virtualizacao-migracaopreemptiva .tg {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+page-virtualizacao-migracaopreemptiva .tg td {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  padding: 10px 5px;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  word-break: normal;
+  border-color: black;
+}
+
+page-virtualizacao-migracaopreemptiva .tg th {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  padding: 10px 5px;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  word-break: normal;
+  border-color: black;
+}
+
+page-virtualizacao-migracaopreemptiva .tg .tg-0pky {
+  border-color: inherit;
+  text-align: left;
+  vertical-align: top;
+}
+
+page-virtualizacao-migracaopreemptiva html, page-virtualizacao-migracaopreemptiva * {
+  /** Não importa. Reseta os estilos **/
+  margin: 0;
+  padding: 0;
+}
+
+page-virtualizacao-migracaopreemptiva body {
+  /** Não importa **/
+  font-family: 'calibri light', calibri, arial, sans-serif;
+}
+
+page-virtualizacao-migracaopreemptiva div.body-content {
+  /** Essa margem vai evitar que o conteudo fique por baixo do rodapé **/
+  margin-bottom: 40px;
+}
+
+page-virtualizacao-migracaopreemptiva footer.fixar-rodape {
+  bottom: 0;
+  left: 0;
+  height: 50px;
+  position: fixed;
+  width: 99%;
+}
+
+page-virtualizacao-replicacao .tg {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+page-virtualizacao-replicacao .tg td {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  padding: 10px 5px;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  word-break: normal;
+  border-color: black;
+}
+
+page-virtualizacao-replicacao .tg th {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  padding: 10px 5px;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  word-break: normal;
+  border-color: black;
+}
+
+page-virtualizacao-replicacao .tg .tg-0pky {
+  border-color: inherit;
+  text-align: left;
+  vertical-align: top;
+}
+
+page-virtualizacao-replicacao html, page-virtualizacao-replicacao * {
+  /** Não importa. Reseta os estilos **/
+  margin: 0;
+  padding: 0;
+}
+
+page-virtualizacao-replicacao body {
+  /** Não importa **/
+  font-family: 'calibri light', calibri, arial, sans-serif;
+}
+
+page-virtualizacao-replicacao div.body-content {
+  /** Essa margem vai evitar que o conteudo fique por baixo do rodapé **/
+  margin-bottom: 40px;
+}
+
+page-virtualizacao-replicacao footer.fixar-rodape {
   bottom: 0;
   left: 0;
   height: 50px;
