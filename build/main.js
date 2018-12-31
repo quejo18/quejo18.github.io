@@ -126,7 +126,6 @@ var VirtualizacaoPage = /** @class */ (function () {
         this.navParams = navParams;
     }
     VirtualizacaoPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad VirtualizacaoPage');
     };
     VirtualizacaoPage.prototype.checkpointing = function () {
         this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__virtualizacao_checkpointing_virtualizacao_checkpointing__["a" /* VirtualizacaoCheckpointingPage */]);
@@ -177,7 +176,6 @@ var VirtualizacaoCheckpointingPage = /** @class */ (function () {
         this.navParams = navParams;
     }
     VirtualizacaoCheckpointingPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad VirtualizacaoCheckpointingPage');
     };
     VirtualizacaoCheckpointingPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
@@ -216,7 +214,6 @@ var VirtualizacaoMigracaopreemptivaPage = /** @class */ (function () {
         this.navParams = navParams;
     }
     VirtualizacaoMigracaopreemptivaPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad VirtualizacaoMigracaopreemptivaPage');
     };
     VirtualizacaoMigracaopreemptivaPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
@@ -255,7 +252,6 @@ var VirtualizacaoAutocuraPage = /** @class */ (function () {
         this.navParams = navParams;
     }
     VirtualizacaoAutocuraPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad VirtualizacaoAutocuraPage');
     };
     VirtualizacaoAutocuraPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
@@ -294,7 +290,6 @@ var VirtualizacaoReplicacaoPage = /** @class */ (function () {
         this.navParams = navParams;
     }
     VirtualizacaoReplicacaoPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad VirtualizacaoReplicacaoPage');
     };
     VirtualizacaoReplicacaoPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
@@ -341,7 +336,6 @@ var ProcessoPage = /** @class */ (function () {
         this.navParams = navParams;
     }
     ProcessoPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad ProcessoPage');
     };
     ProcessoPage.prototype.checkpointing = function () {
         this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_4__processo_checkpointing_processo_checkpointing__["a" /* ProcessoCheckpointingPage */]);
@@ -392,7 +386,6 @@ var ProcessoAutocuraPage = /** @class */ (function () {
         this.navParams = navParams;
     }
     ProcessoAutocuraPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad ProcessoAutocuraPage');
     };
     ProcessoAutocuraPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
@@ -431,7 +424,6 @@ var ProcessoMigracaotrabalhoPage = /** @class */ (function () {
         this.navParams = navParams;
     }
     ProcessoMigracaotrabalhoPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad ProcessoMigracaotrabalhoPage');
     };
     ProcessoMigracaotrabalhoPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
@@ -470,7 +462,6 @@ var ProcessoCheckpointingPage = /** @class */ (function () {
         this.navParams = navParams;
     }
     ProcessoCheckpointingPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad ProcessoCheckpointingPage');
     };
     ProcessoCheckpointingPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
@@ -509,7 +500,6 @@ var ProcessoReplicacaoPage = /** @class */ (function () {
         this.navParams = navParams;
     }
     ProcessoReplicacaoPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad ProcessoReplicacaoPage');
     };
     ProcessoReplicacaoPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
@@ -556,7 +546,6 @@ var ComunicacaoPage = /** @class */ (function () {
         this.navParams = navParams;
     }
     ComunicacaoPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad ComunicacaoPage');
     };
     ComunicacaoPage.prototype.checkpointing = function () {
         this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__comunicacao_checkpointing_comunicacao_checkpointing__["a" /* ComunicacaoCheckpointingPage */]);
@@ -607,7 +596,6 @@ var ComunicacaoCheckpointingPage = /** @class */ (function () {
         this.navParams = navParams;
     }
     ComunicacaoCheckpointingPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad ComunicacaoCheckpointingPage');
     };
     ComunicacaoCheckpointingPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
@@ -646,7 +634,6 @@ var ComunicacaoMigracaopreemptivaPage = /** @class */ (function () {
         this.navParams = navParams;
     }
     ComunicacaoMigracaopreemptivaPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad ComunicacaoMigracaopreemptivaPage');
     };
     ComunicacaoMigracaopreemptivaPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
@@ -685,7 +672,6 @@ var ComunicacaoAutocuraPage = /** @class */ (function () {
         this.navParams = navParams;
     }
     ComunicacaoAutocuraPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad ComunicacaoAutocuraPage');
     };
     ComunicacaoAutocuraPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
@@ -724,7 +710,6 @@ var ComunicacaoReplicacaoPage = /** @class */ (function () {
         this.navParams = navParams;
     }
     ComunicacaoReplicacaoPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad ComunicacaoReplicacaoPage');
     };
     ComunicacaoReplicacaoPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
@@ -763,7 +748,6 @@ var SobrePage = /** @class */ (function () {
         this.navParams = navParams;
     }
     SobrePage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad SobrePage');
     };
     SobrePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
@@ -812,7 +796,6 @@ var ArmazenamentoPage = /** @class */ (function () {
         this.navParams = navParams;
     }
     ArmazenamentoPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad ArmazenamentoPage');
     };
     ArmazenamentoPage.prototype.checkpointing = function () {
         this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__dados_checkpointing_dados_checkpointing__["a" /* DadosCheckpointingPage */]);
@@ -866,7 +849,6 @@ var DadosMigracaotrabalhoPage = /** @class */ (function () {
         this.navParams = navParams;
     }
     DadosMigracaotrabalhoPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad DadosMigracaotrabalhoPage');
     };
     DadosMigracaotrabalhoPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
@@ -905,7 +887,6 @@ var DadosCheckpointingPage = /** @class */ (function () {
         this.navParams = navParams;
     }
     DadosCheckpointingPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad DadosCheckpointingPage');
     };
     DadosCheckpointingPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
@@ -944,7 +925,6 @@ var DadosMigracaopreemptivaPage = /** @class */ (function () {
         this.navParams = navParams;
     }
     DadosMigracaopreemptivaPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad DadosMigracaopreemptivaPage');
     };
     DadosMigracaopreemptivaPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
@@ -983,7 +963,6 @@ var DadosAutocuraPage = /** @class */ (function () {
         this.navParams = navParams;
     }
     DadosAutocuraPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad DadosAutocuraPage');
     };
     DadosAutocuraPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
@@ -1022,7 +1001,6 @@ var DadosReplicacaoPage = /** @class */ (function () {
         this.navParams = navParams;
     }
     DadosReplicacaoPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad DadosReplicacaoPage');
     };
     DadosReplicacaoPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
